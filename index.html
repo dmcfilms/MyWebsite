@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="DMC Films is a Dakar-based creative studio for motion design, VFX, video editing, commercials, interviews, animation, and video production."
+    />
+    <title>DMC Films | Motion Design, VFX & Video Production</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="site-bg" aria-hidden="true"></div>
+
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="DMC Films home">
+        <span class="brand-mark">DMC</span>
+        <span class="brand-name">Films</span>
+      </a>
+
+      <button
+        class="nav-toggle"
+        type="button"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="site-nav"
+        data-nav-toggle
+      >
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" data-nav>
+        <a href="#reel">Reel</a>
+        <a href="#services">Services</a>
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section">
+        <div class="hero-media" aria-hidden="true">
+          <span class="scanline"></span>
+        </div>
+
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Dakar creative studio</p>
+            <h1>Motion Design, VFX & Video Production for brands with stories to tell.</h1>
+            <p class="hero-text">
+              DMC Films helps agencies, brands, artists and NGOs create cinematic visuals,
+              animated stories and impactful video content.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#reel">Watch Reel</a>
+              <a class="btn btn-secondary" href="#contact">Start a Project</a>
+            </div>
+          </div>
+
+          <div class="hero-panel reveal" style="--delay: 140ms">
+            <p class="panel-label">Selected capabilities</p>
+            <ul>
+              <li>Motion-led brand films</li>
+              <li>Compositing and VFX cleanup</li>
+              <li>Editorial pacing for campaigns</li>
+              <li>2D and 3D animation systems</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reel-section" id="reel">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Studio reel</p>
+            <h2>Cinematic work, cut for rhythm and clarity.</h2>
+          </div>
+
+          <div class="video-shell reveal">
+            <!-- Replace assets/video/reel.mp4 with your final reel video file. Keep the same filename or update the src below. -->
+            <!-- Replace assets/img/poster.jpg with a still frame from the reel for the video preview image. -->
+            <video
+              class="reel-video"
+              controls
+              preload="metadata"
+              poster="assets/img/poster.jpg"
+            >
+              <source src="assets/video/reel.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="services">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Services</p>
+            <h2>From first idea to final frame.</h2>
+          </div>
+
+          <div class="services-grid">
+            <article class="service-card reveal">
+              <span>01</span>
+              <h3>Motion Design</h3>
+              <p>Animated systems, titles, brand visuals and kinetic storytelling.</p>
+            </article>
+            <article class="service-card reveal">
+              <span>02</span>
+              <h3>VFX</h3>
+              <p>Compositing, cleanup, screen replacements and invisible polish.</p>
+            </article>
+            <article class="service-card reveal">
+              <span>03</span>
+              <h3>Video Editing</h3>
+              <p>Sharp narrative pacing for music, campaigns, interviews and social content.</p>
+            </article>
+            <article class="service-card reveal">
+              <span>04</span>
+              <h3>Commercials</h3>
+              <p>Premium visual language for brands, launches and campaign films.</p>
+            </article>
+            <article class="service-card reveal">
+              <span>05</span>
+              <h3>Interviews</h3>
+              <p>Clean, human, cinematic interview edits that keep the message focused.</p>
+            </article>
+            <article class="service-card reveal">
+              <span>06</span>
+              <h3>3D Animation</h3>
+              <p>Product shots, animated environments, visual explainers and design-led scenes.</p>
+            </article>
+            <article class="service-card reveal">
+              <span>07</span>
+              <h3>NGO / Explainer Videos</h3>
+              <p>Accessible stories that translate complex ideas into clear moving images.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="work">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Selected work</p>
+            <h2>Frames built to hold attention.</h2>
+          </div>
+
+          <div class="work-grid">
+            <article class="work-card reveal">
+              <!-- Replace this image with your own thumbnail in assets/img/project-1.jpg. -->
+              <img src="assets/img/project-1.jpg" alt="Project thumbnail for a brand film" />
+              <div class="work-card-content">
+                <p>Commercial</p>
+                <h3>Brand Story Campaign</h3>
+              </div>
+            </article>
+            <article class="work-card reveal">
+              <!-- Replace this image with your own thumbnail in assets/img/project-2.jpg. -->
+              <img src="assets/img/project-2.jpg" alt="Project thumbnail for motion design work" />
+              <div class="work-card-content">
+                <p>Motion Design</p>
+                <h3>Animated Launch Film</h3>
+              </div>
+            </article>
+            <article class="work-card reveal">
+              <!-- Replace this image with your own thumbnail in assets/img/project-3.jpg. -->
+              <img src="assets/img/project-3.jpg" alt="Project thumbnail for documentary interview work" />
+              <div class="work-card-content">
+                <p>Interview / NGO</p>
+                <h3>Human Impact Series</h3>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section about-section" id="about">
+        <div class="container about-grid">
+          <div class="section-heading reveal">
+            <p class="eyebrow">About</p>
+            <h2>Dakar perspective. Global visual language.</h2>
+          </div>
+          <div class="about-copy reveal">
+            <p>
+              DMC Films is led by Djim Mouhameth Cisse, a motion designer, VFX artist
+              and video editor based in Dakar, Senegal. The studio focuses on storytelling,
+              rhythm, design and cinematic visuals to help clients communicate with clarity
+              and emotion.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section process-section" id="process">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Process</p>
+            <h2>A focused path from brief to delivery.</h2>
+          </div>
+
+          <div class="process-grid">
+            <article class="process-step reveal">
+              <span>01</span>
+              <h3>Discover</h3>
+              <p>Understand the audience, message, references and production needs.</p>
+            </article>
+            <article class="process-step reveal">
+              <span>02</span>
+              <h3>Concept</h3>
+              <p>Shape the core idea, rhythm, visual direction and creative treatment.</p>
+            </article>
+            <article class="process-step reveal">
+              <span>03</span>
+              <h3>Design & Animation</h3>
+              <p>Build the edit, design frames, animate sequences and refine the details.</p>
+            </article>
+            <article class="process-step reveal">
+              <span>04</span>
+              <h3>Delivery</h3>
+              <p>Export polished files for web, broadcast, social platforms or presentations.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div class="container contact-panel reveal">
+          <p class="eyebrow">Contact</p>
+          <h2>Have a story to bring to life?</h2>
+          <p>
+            Tell DMC Films what you are making, where it will live, and what kind of feeling
+            the audience should leave with.
+          </p>
+
+          <div class="contact-actions">
+            <!-- Edit these placeholder links with your real email and social profiles. -->
+            <a class="btn btn-primary" href="mailto:hello@dmcfilms.com">Email</a>
+            <a class="btn btn-secondary" href="https://instagram.com/" target="_blank" rel="noreferrer">Instagram</a>
+            <a class="btn btn-secondary" href="https://behance.net/" target="_blank" rel="noreferrer">Behance</a>
+            <a class="btn btn-secondary" href="https://linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>&copy; <span data-year></span> DMC Films. Dakar, Senegal.</p>
+        <a href="#top">Back to top</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
