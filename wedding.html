@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Wedding Photography by DMC Films in Dakar, Senegal." />
+  <title>Wedding Photography | DMC Films</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="site-bg" aria-hidden="true"></div>
+
+  <header class="site-header" data-header>
+    <a class="brand" href="index.html" aria-label="DMC Films">
+      <img
+        src="assets/img/logo.png"
+        class="brand-logo"
+        alt="DMC Films"
+      />
+    </a>
+
+    <button
+      class="nav-toggle"
+      type="button"
+      aria-label="Open navigation menu"
+      aria-expanded="false"
+      aria-controls="site-nav"
+      data-nav-toggle
+    >
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="site-nav" id="site-nav" data-nav>
+      <a href="index.html">Home</a>
+      <a href="index.html#work">Work</a>
+      <a href="#gallery">Gallery</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="section wedding-hero">
+      <div class="container wedding-hero-grid">
+        <div class="wedding-copy">
+          <p class="eyebrow">Wedding Photography</p>
+          <h1>Honest moments, timeless frames.</h1>
+          <p class="wedding-intro">A selection of wedding moments captured with emotion, elegance and attention to detail by DMC Films.</p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#gallery">View Gallery</a>
+            <a class="btn btn-secondary" href="index.html#work">Back to Work</a>
+          </div>
+        </div>
+
+        <div class="wedding-cover">
+          <img
+            src="assets/img/wedding/Wedding_Cover.jpeg"
+            alt="Wedding Photography by DMC Films"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Later, a YouTube or Vimeo video can be inserted here without changing the gallery structure. -->
+
+    <section class="section wedding-gallery-section" id="gallery">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Wedding Gallery</p>
+          <h2>A story told through real moments.</h2>
+        </div>
+
+        <div class="wedding-gallery" id="wedding-gallery"></div>
+      </div>
+    </section>
+
+    <section class="section contact-section">
+      <div class="container contact-panel">
+        <p class="eyebrow">Wedding Photography</p>
+        <h2>Planning your wedding?</h2>
+        <p>Let DMC Films capture the emotion, atmosphere and details of your day.</p>
+
+        <div class="contact-actions">
+          <a class="btn btn-primary" href="mailto:hello@dmcfilms.com">Start a Project</a>
+          <a class="btn btn-secondary" href="index.html#contact">Contact</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="gallery-lightbox" id="gallery-lightbox" hidden>
+    <button class="lightbox-close" id="lightbox-close" type="button" aria-label="Close">×</button>
+    <button class="lightbox-arrow lightbox-previous" id="lightbox-previous" type="button" aria-label="Previous">‹</button>
+
+    <div class="lightbox-content">
+      <img id="lightbox-image" src="" alt="" />
+      <p class="lightbox-counter" id="lightbox-counter"></p>
+    </div>
+
+    <button class="lightbox-arrow lightbox-next" id="lightbox-next" type="button" aria-label="Next">›</button>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span data-year></span> DMC Films. Dakar, Senegal.</p>
+      <a href="#top">Back to top</a>
+    </div>
+  </footer>
+
+  <script src="gallery-data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
