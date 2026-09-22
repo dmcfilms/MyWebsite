@@ -1,41 +1,30 @@
 window.motionVideos = [
   
   
-  {
-    "title": "ForHope Recap 2024",
-    "category": "Motion Design",
-    "description": "Replace this information in motion-videos.js.",
-    "thumbnail": "assets/img/motion/Motion-02.png",
-    "behanceUrl": "https://www.behance.net/gallery/221109269/ForHope-Recap-2024"
-  },
-  {
+    {
     "title": "ForHope Association Motion Series",
     "category": "Brand Animation",
-    "description": "Replace this information in motion-videos.js.",
+    "description": "ForHope est une association, engagée à améliorer les conditions de vie des poplations vulnérables, notamment en zones rurales et défavorisées.",
     "thumbnail": "assets/img/motion/Motion-03.jpeg",
     "behanceUrl": "https://www.behance.net/gallery/201969169/ForHope-Association"
   },
-  {
-    "title": "Ajoola - Le Bil du Mak",
-    "category": "Animated Explainer",
-    "description": "Replace this information in motion-videos.js.",
-    "thumbnail": "assets/img/motion/Motion-04.png",
-    "behanceUrl": "https://www.behance.net/gallery/193304117/Ajoola-Le-Bil-du-Mak-Official-Videos-lyrics"
-  },
-  {
+   {
     "title": "Le Gouvernement Ouvert (PGO) Sénégal",
     "category": "Brand Animation",
-    "description": "Replace this information in motion-videos.js.",
+    "description": "Le Gouvernement Ouvert (PGO) Sénégal est une initiative visant à promouvoir la transparence, la participation citoyenne et la collaboration entre le gouvernement et les citoyens pour renforcer la gouvernance et la responsabilité au Sénégal.  ",
     "thumbnail": "assets/img/motion/Motion_Cover.png",
     "behanceUrl": "https://www.behance.net/gallery/220590407/Le-Gouvernement-Ouvert-(PGO)-Sngal"
   },
   {
-    "title": "CCBM Packshot Animation",
-    "category": "Title Design",
-    "description": "Replace this information in motion-videos.js.",
-    "thumbnail": "assets/img/motion/Motion-06.png",
-    "behanceUrl": "https://www.behance.net/gallery/229992889/CCBM-PACKSHOT"
+    "title": "ForHope Recap 2024",
+    "category": "Motion Design",
+    "description": "ForHope est une association, engagée à améliorer les conditions de vie des poplations vulnérables, notamment en zones rurales et défavorisées.",
+    "thumbnail": "assets/img/motion/Motion-02.png",
+    "behanceUrl": "https://www.behance.net/gallery/221109269/ForHope-Recap-2024"
   },
+ 
+
+  
 
 
 ];
