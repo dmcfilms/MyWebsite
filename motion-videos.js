@@ -23,11 +23,11 @@ window.motionVideos = [
     "behanceUrl": "https://www.behance.net/gallery/193304117/Ajoola-Le-Bil-du-Mak-Official-Videos-lyrics"
   },
   {
-    "title": "ERT (Etude, Realisation, Technique)",
+    "title": "Le Gouvernement Ouvert (PGO) Sénégal",
     "category": "Brand Animation",
     "description": "Replace this information in motion-videos.js.",
-    "thumbnail": "assets/img/motion/Motion-05.jpeg",
-    "behanceUrl": "https://www.behance.net/gallery/204364063/ERT-%28Etude-Realisation-Technique%29"
+    "thumbnail": "assets/img/motion/Motion-Cover.png",
+    "behanceUrl": "https://www.behance.net/gallery/220590407/Le-Gouvernement-Ouvert-(PGO)-Sngal"
   },
   {
     "title": "CCBM Packshot Animation",
