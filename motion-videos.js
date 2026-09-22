@@ -26,7 +26,7 @@ window.motionVideos = [
     "title": "Le Gouvernement Ouvert (PGO) Sénégal",
     "category": "Brand Animation",
     "description": "Replace this information in motion-videos.js.",
-    "thumbnail": "assets/img/motion/Motion-Cover.png",
+    "thumbnail": "assets/img/motion/Motion_Cover.png",
     "behanceUrl": "https://www.behance.net/gallery/220590407/Le-Gouvernement-Ouvert-(PGO)-Sngal"
   },
   {
