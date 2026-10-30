@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+
   <div class="site-bg" aria-hidden="true"></div>
 
   <header class="site-header" data-header>
@@ -34,7 +35,7 @@
     <nav class="site-nav" id="site-nav" data-nav>
       <a href="index.html">Home</a>
       <a href="index.html#work">Work</a>
-      <a href="#gallery">Gallery</a>
+      <a href="#categories">Gallery</a>
       <a href="index.html#contact">Contact</a>
     </nav>
   </header>
@@ -48,27 +49,39 @@
           <p class="wedding-intro">A selection of portraits, editorial images and creative photography produced by DMC Films.</p>
 
           <div class="hero-actions">
-            <a class="btn btn-primary" href="#gallery">View Gallery</a>
+            <a class="btn btn-primary" href="#categories">View Galleries</a>
             <a class="btn btn-secondary" href="index.html#work">Back to Work</a>
           </div>
         </div>
 
         <div class="wedding-cover">
           <img
-            src="assets/img/photography/Photography_Cover.jpeg"
+            src="assets/img/wedding/Wedding_Cover.jpeg"
             alt="Photography by DMC Films"
           />
         </div>
       </div>
     </section>
 
-    <!-- Later, a YouTube or Vimeo video can be inserted here without changing the gallery structure. -->
-
-    <section class="section wedding-gallery-section" id="gallery">
+    <!-- CATEGORIES -->
+    <section class="section wedding-gallery-section" id="categories">
       <div class="container">
         <div class="section-heading">
-          <p class="eyebrow">Photography Gallery</p>
-          <h2>Distinct images with mood and intention.</h2>
+          <p class="eyebrow">Photography Services</p>
+          <h2>Choose a category to explore.</h2>
+        </div>
+
+        <div class="photo-categories" id="photo-categories"></div>
+      </div>
+    </section>
+
+    <!-- GALLERY (hidden until a category is chosen) -->
+    <section class="section wedding-gallery-section" id="gallery" hidden>
+      <div class="container">
+        <div class="section-heading">
+          <button class="back-to-categories" id="back-to-categories" type="button">← All Categories</button>
+          <p class="eyebrow" id="gallery-eyebrow">Gallery</p>
+          <h2 id="gallery-title">Gallery</h2>
         </div>
 
         <div class="wedding-gallery" id="wedding-gallery"></div>
